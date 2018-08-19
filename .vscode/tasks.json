@@ -7,14 +7,14 @@
             "label": "build",
             "type": "shell",
             "command": "g++",
-            "args": ["-g","${file}", "-std=c++14", "-o","${file}.exe"],
-            // "args": [
-            //     "-g",
-            //     "${file}",
-            //     "--std=c++11",
-            //     "-o",
-            //     "HelloVS.exe"
-            // ],
+            "args": [
+                "${file}",
+                "-o", 
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-g", 
+                "-Wall",
+                "-std=c++17" // C语言最新标准为c11，或根据自己的需要进行修改
+            ], // 编译命令参数
             "group": "build",
             "presentation": {
                 // Reveal the output only if unrecognized errors occur.

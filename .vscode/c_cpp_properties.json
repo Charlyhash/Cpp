@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "F:/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++",
+                "F:/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32",
+                "F:/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward",
+                "F:/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
+                "F:/mingw64/lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/tr1",
+                "F:/mingw64/x86_64-w64-mingw32/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
